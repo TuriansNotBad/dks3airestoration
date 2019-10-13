@@ -329,8 +329,11 @@ function Common_Battle_Activate(ai, goal, actOddsTbl, actTbl, actAfter, paramTbl
 		end,
 		function()
 			return defAct98(ai, goal, paramTbl[98])
+		end,
+		function()
+			return defAct99(ai, goal, paramTbl[99])
 		end
-	}	
+	}
 	
 	local someVar = 1
 	
