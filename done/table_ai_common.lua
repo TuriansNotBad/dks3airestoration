@@ -8,7 +8,7 @@ Logic = nil -- global table that will be accessible by callers of Register funct
 Goal = nil -- global table that will be accessible by callers of Register functions
 
 ---
--- Handles all logic registration and creates a global Logic table. I'm not sure this actually works.
+-- Handles all logic registration and creates a global Logic table.
 -- Global Logic variable is overridden upon each call of this function
 -- @function RegisterTableLogic
 -- @tparam number logicId Unique identifier for this logic.
